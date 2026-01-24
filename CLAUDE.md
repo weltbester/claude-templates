@@ -5,6 +5,12 @@ This file provides guidelines for AI assistants (particularly Claude and Claude 
 ## Project Standards
 
 ### Code Quality
+- **Follow SOLID design principles in all code:**
+  - **S**ingle Responsibility - Each class/module has one reason to change
+  - **O**pen/Closed - Open for extension, closed for modification
+  - **L**iskov Substitution - Subtypes must be substitutable for their base types
+  - **I**nterface Segregation - Prefer specific interfaces over general-purpose ones
+  - **D**ependency Inversion - Depend on abstractions, not concrete implementations
 - Write clean, readable, and maintainable code
 - Follow language-specific style guides and idioms
 - Add meaningful comments for complex logic only
