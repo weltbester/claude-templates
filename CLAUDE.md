@@ -35,6 +35,8 @@ This file provides guidelines for AI assistants (particularly Claude and Claude 
 - Add inline documentation for complex algorithms
 
 ### Version Control
+- Fetch / Pull before you Push
+- Always create a new branch with a meaningful name when you implement a new feature
 - Write clear, descriptive commit messages
 - Use conventional commit format: `type(scope): description`
   - Types: feat, fix, docs, style, refactor, test, chore
