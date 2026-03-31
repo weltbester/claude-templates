@@ -12,6 +12,7 @@ This file provides guidelines for AI assistants (particularly Claude and Claude 
   - **I**nterface Segregation - Prefer specific interfaces over general-purpose ones
   - **D**ependency Inversion - Depend on abstractions, not concrete implementations
 - Write clean, readable, and maintainable code
+- Use type hints / annotations for every parameter
 - Follow language-specific style guides and idioms
 - Add meaningful comments for complex logic only
 - Prefer self-documenting code with clear variable and function names
