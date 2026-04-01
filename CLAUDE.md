@@ -24,7 +24,7 @@ This file provides guidelines for AI assistants (particularly Claude and Claude 
 - Include integration tests for key workflows
 - Test error conditions and edge cases
 - Ensure tests are deterministic and reproducible
-- Run all tests before marking tasks complete
+- Run all tests before marking tasks complete and commiting them
 - Aim for high code coverage on critical paths
 
 ### Documentation Standards
