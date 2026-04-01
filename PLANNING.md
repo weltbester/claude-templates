@@ -7,6 +7,7 @@ Think hard about how to implement a machine learning-powered expense categorizat
 5. What's the user experience flow?
 6. How do we handle edge cases and errors?
 7. What's the deployment and maintenance strategy?
+8. Provide a project structure tree with common folder names and folder organization.
 
 Provide a comprehensive technical analysis before we start coding.
 Save the plan to 'DEVELOPMENT_PLAN.md'.
