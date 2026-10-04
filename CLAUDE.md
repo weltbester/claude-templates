@@ -196,6 +196,19 @@ This file provides guidelines for AI assistants (particularly Claude and Claude 
 - Fix issues as soon as they're detected
 - Commit logical units of work
 
+### Debugging
+- These rules override autonomy and "fix issues immediately" while debugging
+- If very sure of the fix, say so and explain why
+- If unsure, rank possible causes by probability
+- Let the user choose which one to tackle
+- Read-only investigation is fine; make no changes yet
+- Start fixing only once the solution path is clear
+- First give a brief plan overview, information only
+- Then do exactly one troubleshooting step at a time
+- Wait for the user to finish each step before the next
+- Confirm the fix with the user at the end
+- Why: one step at a time beats scrolling back through a list of several steps
+
 ## Exclusions and Restrictions
 
 ### Do Not
