@@ -1,6 +1,10 @@
 # Changelog
 
 ## Unreleased
+### Added
+- `claude/settings.example.json`: reference copy of personal settings,
+  without account-synced plugin entries.
+
 ### Changed
 - Restructured repo: `claude/` mirrors `~/.claude`; project templates,
   docs, prompts and eval examples moved into their own folders.
