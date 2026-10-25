@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "model": "sonnet",
+  "enabledPlugins": {
+    "rust-analyzer-lsp@claude-plugins-official": true
+  },
+  "modelSettings": {
+    "claude-haiku-4-5": {
+      "autoCompactWindow": "auto"
+    }
+  },
+  "tui": "fullscreen",
+  "autoMemoryEnabled": true,
+  "switchModelsOnFlag": true,
+  "autoContinueAtUsageLimit": true,
+  "agentPushNotifEnabled": false,
+  "sandbox": {
+    "enabled": false,
+    "allowUnsandboxedCommands": true
+  },
+  "skillOverrides": {
+    "docx": "off",
+    "pdf": "off",
+    "pptx": "off",
+    "xlsx": "off",
+    "skill-creator": "off"
+  }
+}

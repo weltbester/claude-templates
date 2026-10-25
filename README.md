@@ -10,6 +10,7 @@ Templates and workflows for Claude Code. The `claude/` folder mirrors
 | `claude/`            | Global config, mirrors `~/.claude` (copy or symlink) |
 | `claude/CLAUDE.md`   | Global guidelines loaded in every session            |
 | `claude/settings.json` | Generic permissions example (no model/plugin data) |
+| `claude/settings.example.json` | Personal settings reference (model, auto mode, skill overrides) |
 | `claude/commands/`   | Generic slash commands usable in any project         |
 | `claude/skills/`     | Skills and a guide for writing descriptions          |
 | `claude/agents/`     | Subagent definitions (empty for now)                 |
